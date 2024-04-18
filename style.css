@@ -60,6 +60,7 @@ textarea, select {
 }
 button {
     cursor: pointer;
+    border:none;
 }
 
 .container {
@@ -119,6 +120,9 @@ h1 {
     border-top: solid 2px #dee1e2;
     border-bottom: solid 2px #dee1e2;
 }
+.registration_form {
+    border-bottom: none;
+}
 hr {
     size: 2px;
     color: #dee1e2;
@@ -168,13 +172,14 @@ display: flex;
 }
 
 .item__btn:hover {
-    background-color: #151212;
+    color: #151212;
 }
 .basket__item_price {
     font-family: 'PT Sans';
     font-weight: 700;
     font-size: 16px;
     text-align: right;
+    margin-top: 20px;
 }
 .basket__elem_two {
     width: 356px;
@@ -192,11 +197,20 @@ display: flex;
 .basket__elem_two .total{
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
 }
 .basket__elem_two .price {
     margin-top: 38px;
     margin-bottom: 14px;
 }
+
+.basket__elem_two .price p {
+    font-family: "PT Sans";
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
 .basket__elem_two .total {
     margin-top: 19px;
 }
@@ -216,7 +230,7 @@ display: flex;
     font-family: 'PT Sans';
     font-weight: 400;
     font-size: 16px;
-    margin-top: 38px;
+    margin-top: 33px;
 }
 
 .basket__elem_two button {
@@ -228,7 +242,7 @@ display: flex;
     padding-bottom: 12px;
     text-align: center;
     color: #fff;
-    margin-top: 38px;
+    margin-top: 33px;
     border-radius: 5px;
     background-color: #000;
 }
@@ -321,7 +335,8 @@ textarea {
     opacity: 0.5;
 }
 .approval {
-    margin-top: 30px;
+    margin-top: 40px;
+    width: 356px;;
 }
 .approval__label {
     font-family: 'PT Sans';
@@ -337,21 +352,22 @@ textarea {
   }
   .custom-checkbox+label {
     display: inline-flex;
-    align-items: center;
+    align-items: flex-start;
     user-select: none;
   }
   .custom-checkbox+label::before {
     content: '';
     display: inline-block;
-    width: 1em;
-    height: 1em;
+    width: 18px;
+    height: 18px;
+    margin-top: 2px;
     flex-shrink: 0;
     flex-grow: 0;
     border: 1px solid #111;
     margin-right: 0.5em;
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: 80% 80%;
+    background-size: 90% 80%;
   }
   .custom-checkbox:checked+label::before {
     background-image: url("/img/Group\ 3.svg");
@@ -383,7 +399,7 @@ textarea {
     margin-top: 40px;
   }
   .finish__counter {
-    font-family: var(--second-family);
+    font-family: 'PT Serif';
     font-weight: 400;
     font-size: 32px;
     line-height: 66%;
@@ -406,4 +422,3 @@ textarea {
     display: block;
     margin: 30px auto;
   }
-  

@@ -51,6 +51,7 @@
     }
     .mobile {
         text-align: start;
+        padding: 0;
     }
 
     input,
@@ -71,5 +72,8 @@ textarea,
 }
 .finish__descr {
     width: 65%;
+}
+.delivery_mobile {
+    display: none;
 }
 }
