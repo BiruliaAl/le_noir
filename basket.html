@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Корзина</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/media.css">
+</head>
+<body>
+    <section class="menu">
+        <div class="container">
+            <img src="/img/Menu.svg" alt="menu">
+            <img class="menu__heart_mobile" src="/img/Heart.svg" alt="heart">
+            <img src="/img/Vector.svg" alt="logo">
+            <div class="menu__serach">
+                <img class="menu__serach_img" src="/img/Serach.svg" alt="serach"> 
+                <p class="menu__serach_name">Поиск</p>
+                <img class="menu__serach_heart" src="/img/Heart.svg" alt="heart">
+                <img src="/img/Bag.svg" alt="bag">
+                <p class="menu__serach_counter">2</p>
+            </div>
+        </div> 
+    </section>   
+
+    <div class="container">
+        <h1>Корзина</h1>
+        <section class="basket">
+            <div class="basket__elem basket__elem_one">
+                <div class="basket__item">
+                    <div class="basket__item_start">
+                        <img class="item__img" src="./img/Pic-1.png" alt="photo">
+                        <div class="item__descr">
+                            <h2 class="item__descr_name">JOHN HARDY</h2>
+                            <p class="item__descr_title">Кольцо Bedeg Collection из серебра с бриллиантами</p>
+                            <p class="item__descr_subtitle">Артикул:  LNA03LC118</p>
+                            <button class="item__btn dekstop">Удалить из корзины</button>
+                            <p class="basket__item_price mobile">250 000 ₽</p>
+                        </div>
+                    </div>
+                    <p class="basket__item_price dekstop">250 000 ₽</p>
+                    <button class="item__btn mobile">Удалить из корзины</button>
+                </div>
+                <hr>
+                <div class="basket__item">
+                    <div class="basket__item_start">
+                        <img class="item__img" src="./img/Group 2.png" alt="photo">
+                        <div class="item__descr">
+                            <h2 class="item__descr_name">JOHN HARDY</h2>
+                            <p class="item__descr_title">Кольцо Classic Chain Collection из серебра с черными …</p>
+                            <p class="item__descr_subtitle">Артикул:  LNA03LC118</p>
+                            <button class="item__btn dekstop">Удалить из корзины</button>
+                            <p class="basket__item_price mobile">250 000 ₽</p>
+                        </div>
+                    </div>
+                    <p class="basket__item_price dekstop">120 000 ₽</p>
+                    <button class="item__btn mobile">Удалить из корзины</button>
+                </div>
+            </div>
+            <div class="basket__elem basket__elem_two">
+                <h3>Сумма заказа</h3>
+                <div class="price">
+                    <p>2 товара на сумму</p>
+                    <p>370 000 ₽</p>
+                </div>
+                <hr>
+                <div class="total">
+                    <h4>Итого</h4>
+                    <p>370 000 ₽</p>
+                </div>  
+                <p class="delivery">Бесплатная доставка по России</p> 
+                <button>Перейти к оформлению</button>
+            </div>
+        </section>
+    </div>
+
+    <div class="container">
+        <h1>Оформление заказа</h1>
+        <section class="basket">
+            <div class="basket__elem basket__elem_one">
+                <form>
+                    <div class="form__item size50">
+                        <label> Имя</label>
+                        <input type="text" />
+                    </div>
+                    <div class="form__item size50">
+                        <label> Фамилия</label>
+                        <input type="text" />
+                    </div>
+                    <div class="form__item size50">
+                        <label> Мобильный</label>
+                        <input type="tel" placeholder="+7" />
+                    </div>
+                    <div class="form__item size50">
+                        <label> E-mail</label>
+                        <input type="email" />
+                    </div>
+                    <div class="form__item size33">
+                        <label> Индекс</label>
+                        <input type="text" />
+                    </div>
+                    <div class="form__item size33">
+                        <label> Город / населенный пункт</label>
+                        <input type="text" />
+                    </div>
+                    <div class="form__item size33">
+                        <label>Область</label>
+                        <input type="text" /> 
+                    </div>
+                    <div class="form__item size33">
+                        <label> Улица</label>
+                        <input type="text" required/>
+                    </div>
+                    <div class="form__item size33 size-mobile">
+                        <label> Дом</label>
+                        <input type="text" required/>
+                    </div>
+                    <div class="form__item size33 size-mobile">
+                        <label> Квартира</label>
+                        <input type="text" required/>
+                    </div>
+                    <div class="form__item size100">
+                        <label> Комментарий курьеру</label>
+                        <textarea rows="3"></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="basket__elem basket__elem_two">
+                <h3>Сумма заказа</h3>
+                <div class="price">
+                    <p>2 товара на сумму</p>
+                    <p>370 000 ₽</p>
+                </div>
+                <hr>
+                <div class="total">
+                    <h4>Итого</h4>
+                    <p>370 000 ₽</p>
+                </div>  
+                <p class="delivery">Бесплатная доставка по России</p> 
+                <button class="registration">Перейти к оплате</button>
+                <div class="approval">
+                    <input type="checkbox" class="custom-checkbox" id="approval" name="approval" value="yes" required>
+                    <label class="approval__label" for="approval">Даю согласие на передачу персональных данных, подтверждаю ознакомление с договором-оферты</label>
+                </div>    
+            </div>
+        </section>
+        <section class="question">
+            <p>Есть вопросы по заказу?</p>
+            <button><a href="https://t.me/">Связаться с LeNoir</a></button>
+        </section>
+    </div>
+
+    <div class="container">
+        <h1 class="finish__title">Заказ оплачен</h1>
+        <div class="finish">
+            <p  class="finish__descr">Готовим ваш заказ к отправке, номер вашего заказа:</p>
+            <p  class="finish__counter">№ 1</p>
+        </div>
+       <button class="finish__btn">Вернуться в магазин</button>
+
+    </div>
+</body>
+</html>

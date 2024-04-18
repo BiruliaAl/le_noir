@@ -1,0 +1,75 @@
+@media (max-width: 500px) {
+    .container {
+        max-width: 360px;
+    }
+    .basket {
+        flex-direction: column;
+        width: 100%;
+    }
+    .basket__item {
+        width: 100%;
+    }
+    .menu__serach_name,
+    .menu__serach_heart {
+        display: none;
+    }
+    .menu__heart_mobile {
+        display: block;
+        margin-left: -40px;
+    }
+    .menu__serach_img {
+        margin-right: 12px;
+    }
+    .dekstop {
+        display: none;
+    }
+    .mobile {
+        display: block;
+    }
+    .item__descr {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        text-align: left;
+    }
+    .basket__item_price {
+        text-align: left;
+        margin-top: 25px;
+    }
+    .basket__elem_one {
+        width: 360px;
+    }
+    .basket__elem_two {
+        margin-top: 80px;
+        background-color: #fff;
+        padding: 0;
+    }
+    .basket__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .mobile {
+        text-align: start;
+    }
+
+    input,
+textarea,
+.size50,
+.size33,
+.size100  {
+    width: 100%;
+}
+.size-mobile {
+    width: 47%;
+}
+.question button {
+    width: 100%;
+}
+.question {
+    padding-top: 40px;
+}
+.finish__descr {
+    width: 65%;
+}
+}
