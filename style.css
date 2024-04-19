@@ -117,16 +117,19 @@ h1 {
 .basket__elem_one {
     width: 748px;
     margin-right: 24px;
-    border-top: solid 2px #dee1e2;
-    border-bottom: solid 2px #dee1e2;
+    border-top: solid 1px #dee1e2;
+    border-bottom: solid 1px #dee1e2;
 }
 .registration_form {
     border-bottom: none;
 }
 hr {
-    size: 2px;
+    border: none;
     color: #dee1e2;
+    background-color: #dee1e2;
     width: 100%;
+    height: 1px;
+    margin: 0;
 }
 .basket__item {
     display: flex;
@@ -231,7 +234,7 @@ display: flex;
     font-family: 'PT Sans';
     font-weight: 400;
     font-size: 16px;
-    margin-top: 37px;
+    margin-top: 33px;
 }
 
 .basket__elem_two button {
@@ -243,7 +246,7 @@ display: flex;
     padding-bottom: 12px;
     text-align: center;
     color: #fff;
-    margin-top: 37px;
+    margin-top: 33px;
     border-radius: 5px;
     background-color: #000;
 }
